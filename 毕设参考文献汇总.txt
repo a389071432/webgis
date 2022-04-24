@@ -1,0 +1,44 @@
+[1]COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU). ArcGIS. Johns Hopkins University. 
+
+[2]Economic data, commodities and markets. The Economist. [2020-04-22]. ISSN 0013-0613.
+
+[3] Lindzon, Jared. School closures are starting, and they’ll have far-reaching economic impacts. Fast Company. 2020-03-12 [2021-03-21]
+
+[4]Ross R (1 February 1916). "An application of the theory of probabilities to the study of a priori pathometry.—Part I". Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character. 92 (638): 204–230. Bibcode:1916RSPSA..92..204R. doi:10.1098/rspa.1916.0007.
+
+[5]Yue Yu, Abdelkader El Kamel, Guanghong Gong, Fengxia Li,
+Multi-agent based modeling and simulation of microscopic traffic in virtual reality system,
+Simulation Modelling Practice and Theory,
+Volume 45,
+2014,
+Pages 62-79,
+ISSN 1569-190X,
+https://doi.org/10.1016/j.simpat.2014.04.001.
+
+[6]Huang Q, Parker DC, Filatova T, Sun S. A Review of Urban Residential Choice Models Using Agent-Based Modeling. Environment and Planning B: Planning and Design. 2014;41(4):661-689. doi:10.1068/b120043p
+
+[7]Robert Hinch, William J M Probert, Anel Nurtay, Michelle Kendall, Chris Wymant, Matthew Hall, Katrina Lythgoe, Ana Bulas Cruz, Lele Zhao, Andrea Stewart, Luca Ferretti, Daniel Montero, James Warren, Nicole Mather, Matthew Abueg, Neo Wu, Anthony Finkelstein, David G Bonsall, Lucie Abeler-Dörner, Christophe Fraser.OpenABM-Covid19 - an agent-based model for non-pharmaceutical interventions against COVID-19 including contact tracing.PLOS Computational Biology doi: 10.1371/journal.pcbi.1009146
+
+[8]Parastu Kasaie, David W. Dowdy, W. David Kelton.Agent-Based Simulation of a Tuberculosis Epidemic. Proceedings of the 2013 Winter Simulation Conference
+
+[9]Hunter E, Mac Namee B, Kelleher J. An open-data-driven agent-based model to simulate infectious disease outbreaks. PLoS One. 2018 Dec 19;13(12):e0208775. doi: 10.1371/journal.pone.0208775. Erratum in: PLoS One. 2019 Jan 17;14(1):e0211245. PMID: 30566424; PMCID: PMC6300276.
+
+[10]Kendall DG (1956). "Deterministic and stochastic epidemics in closed populations". Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability: Contributions to Biology and Problems of Health. 4: 149–165. doi:10.1525/9780520350717-011.
+
+[11]CAO Zhonghao, ZHANG Jianqin, YANG Mu, JIA Lipeng, DENG Shaocun. The City Agent Model of COVID-19 based on GIS and Application: A Case Study of Guangzhou[J]. Journal of Geo-information Science, 2021, 23(2): 297-306.DOI:10.12082/dqxxkx.2021.200449
+
+[12]Zipei Fan, Chuang Yang, Zhiwen Zhang, Xuan Song, Yinghao Liu, Renhe Jiang, Quanjun Chen, and Ryosuke Shibasaki. 2022. Human Mobility-based Individual-level Epidemic Simulation Platform. <i>ACM Trans. Spatial Algorithms Syst.</i> 8, 3, Article 19 (September 2022), 16 pages. DOI:https://doi.org/10.1145/3491063
+
+[13]Holvenstot, Peter. “GPU-Accelerated Influenza Simulations for Operational Modeling.” (2014).
+
+[14]Lysenko, Mikola and D'Souza, Roshan M. (2008). 'A Framework for Megascale Agent Based Model Simulations on Graphics Processing Units'. Journal of Artificial Societies and Social Simulation 11(4)10
+
+[15]Brandon G. Aaby, Kalyan S. Perumalla, and Sudip K. Seal. 2010. Efficient simulation of agent-based models on multi-GPU and multi-core clusters. In Proceedings of the 3rd International ICST Conference on Simulation Tools and Techniques (SIMUTools '10). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), Brussels, BEL, Article 29, 1–10. DOI:https://doi.org/10.4108/ICST.SIMUTOOLS2010.8822
+
+[16]待补充
+
+[17]待补充
+
+[5]Simões, Joana. (2012). An Agent-Based/Network Approach to Spatial Epidemics. 10.1007/978-90-481-8927-4_29. 
+
+Simões[参考文献5]指出，在大规模仿真模型中，对个体空间运动进行真实描述对于疾病的传播
