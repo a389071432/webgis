@@ -16,7 +16,7 @@ Two functionalities are involved :
 - Generate a BVH file<br/>For an input video, a BVH file will be generated which could be directly used in animation editors(e.g., Blender).
 - Visualize a BVH file<br/>For a loaded BVH file, motion data will be extracted and mapped to an avatar, then the animation can play
 ## Deployment
-In the folder 'backend', two types of backend are provided. You can deploy the backend on a local machine or a remote server, depending on your need. 
+In the folder 'backend', two types of backend are provided. You can deploy the backend either on a local machine or a remote server, depending on your need. 
 ## Deploy locally
 For a quick use of this project, Triton is not needed, follow : 
 1. Install dependencies
@@ -56,6 +56,21 @@ If you want to run the project as a cloud service using Triton Inference Server,
      --shapes=input:1x3x256x192 
      --explicitBatch
      ```
-     Now you get two .engine files, which will be used laterly. 
-     <br/>Note that the VideoPose3D model is not converted, as there is some problem in converting that I haven't figured it out.
+     Now you get two .engine files, which will be used later. 
+     <br/>Note: 
+     - VideoPose3D model is not converted, as there is some problem in converting that I haven't figured it out.
+     - .engine files are not provided here since the conversion from ONNX to .engine is dependent on what model of GPU you are using.
+     
+3. Create model repository
+<br/>To run on Triton, the three neural network models should be organized in a specific way :
 
+     The folder ```backend/triton/Models``` is ready for being a repository, you just need to rename the obtained engine files as 'model.plan' and put them into ```backend/triton/Models/YOLO```, ```backend/triton/FastPose``` and ```backend/triton/Models/VideoPose3D```, respectively.
+     <br/>
+     <br/>```config.pbtxt``` specifies the running configuration of a model. They have been written properly, so you don't need to modify them.
+4. Start Triton Inference Server
+<br/>Check https://docs.nvidia.com/deeplearning/triton-inference-server/release-notes/ and get a released docker image of Triton, make sure that it matches your OS and CUDA. Then, start Triton as a docker container :
+     ```
+     sudo docker run --gpus=1 --rm -p8000:8000 -p8001:8001 -p8002:8002 -v/home/rlt/Desktop/trition:/models nvcr.io/nvidia/tritonserver:<xx.xx>-py3 tritonserver --model-repository=/Models
+     ```
+     ```/Models``` is the path of the model repository you created in Step3.   
+<br/>For detailed description of how to deploy an AI application based on Triton, please refer to the official documentation https://github.com/triton-inference-server/server.
