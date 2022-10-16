@@ -14,6 +14,11 @@ Generally, the project is consisted of three parts :
 ## Use case
 Two functionalities are involved : 
 - Generate a BVH file<br/>For an input video, a BVH file will be generated which could be directly used in animation editors(e.g., Blender).
+  Interpolation and smoothing are supported.
+  <p align="center">
+  <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="300" right="200"/>
+  <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="300" /> 
+</p>
 - Visualize a BVH file<br/>For a loaded BVH file, motion data will be extracted and mapped to an avatar, then the animation can play
 ## Deployment
 In the folder 'backend', two types of backend are provided. You can deploy the backend either on a local machine or a remote server, depending on your need. 
